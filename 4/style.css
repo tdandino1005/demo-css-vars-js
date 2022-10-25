@@ -23,7 +23,13 @@ h6 {
 header {
   --color: #00a8e8;
 
-  color: var(--color);
+  margin: 0 auto 50px;
+  width: 100%;
+  padding: 30px;
+  color: #fff;
+  background: #003459;
+  border-bottom: 3px solid #00a8e8;
+  text-align: center;
 }
 
 main,
@@ -52,16 +58,6 @@ article {
   overflow: auto;
   max-width: 80%;
   margin: 0 auto;
-}
-
-header {
-  margin: 0 auto 50px;
-  width: 100%;
-  padding: 30px;
-  color: #fff;
-  background: #003459;
-  border-bottom: 3px solid #00a8e8;
-  text-align: center;
 }
 
 button {
